@@ -9,7 +9,9 @@ A light plugin to hightlight git conflicts regions.
 lazy.nvim
 ```lua
 {
-  dir = "youguanxinqing/git-conflicts.nvim",
+  "youguanxinqing/git-conflicts.nvim",
+  event = "VeryLazy",
+  lazy = true,
   cmd = {
     "GitConflictsHighlight",
     "GitConflictsHighlightUN",
